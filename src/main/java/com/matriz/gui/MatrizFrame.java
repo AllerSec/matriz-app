@@ -96,7 +96,7 @@ public class MatrizFrame extends JFrame {
         btnTransponer.addActionListener(e -> transponerMatriz());
         panelOperaciones.add(btnTransponer);
 
-        // Añadir todo a la ventana
+        // Añadir odo a la ventana
         JPanel panelPrincipal = new JPanel(new BorderLayout(10, 10));
         panelPrincipal.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
